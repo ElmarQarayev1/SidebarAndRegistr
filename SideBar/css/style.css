@@ -1,0 +1,85 @@
+
+.sidebar{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 23%;
+    height: 100vh;
+    background-color: black;
+}
+.sidebar .picture{
+    padding-top: 10%;
+    text-align: center;
+
+}
+.sidebar .picture h1{
+     padding-top: 14px; 
+    font-size: 26px;
+    color: white;
+}
+.sidebar .picture img{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 6px solid rgb(64, 63, 63);
+}
+.sidebar .icons{
+    margin-top: -9%;
+    text-align: center;
+}
+.sidebar .icons i{
+    padding: 13px 13px;
+    color: white;
+}
+.sidebar .icons a{
+    transition: 0.2s;
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(40, 38, 38);
+}
+.sidebar .icons a:hover{
+    background-color: rgb(54, 163, 245);
+}
+.ulli ul li i{
+    display: inline-block;
+    color: rgb(95, 93, 93);
+    padding-right: 12px;
+}
+.ulli ul li{
+    padding: 13px;
+}
+.ulli ul li:hover a{
+        color: white;   
+}
+.ulli ul li:hover i{
+    color: rgb(59, 151, 249);
+}
+.ulli ul li a{
+    transition: 0.3s;
+    text-decoration: none;
+    color: rgb(154, 151, 151);
+}
+.sidebar .footer{
+text-align: center;
+}
+.footer{
+margin-bottom: -20px;
+}
+.footer p{
+    font-size: 13px;
+    color: white;
+}
+.footer h1{
+    font-size: 14px;
+    color: white;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: rgb(65, 137, 245);
+}
+.footer .bot{
+    margin-top: -4px;
+}
